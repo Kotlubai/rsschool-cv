@@ -1,0 +1,10 @@
+:root {
+    --main-font: Roboto, sans-serif;
+    --alt-font: 'Raleway', sans-serif;
+    --main-dark: #212121;
+    --background-dark: #2F303A;
+    --background-light: #F5F4FA;
+    --main-grey: #757575;
+    --main-light: #ffffff;
+    --main-blue: #2196F3;
+}
