@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
+</head>
+<body>
+    <header class="main">        
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about-me">About me</a></li>
+                <li class="nav__item"><a href="#work-experience">Work Experience</a></li>
+                <li class="nav__item"><a href="#education">Education</a></li>
+                <li class="nav__item"><a href="#contacts">Contacts</a></li>
+                <li class="nav__item"><a href="#projects">Projects</a></li>                
+            </ul>
+        </nav>
+    </header>
+    <!--Main-->
+    <main class="main">
+        <!--Main content-->
+        <div class="main-content">
+            <!--About user-->
+            <div class="about">
+                <h1 id="about-me" class="about-name">Kotlubai Volodymyr</h1>
+                <h2 class="about-position">Junior Frontend Developer</h2>
+                <p class="about-description">At the moment, I have a desire to change the direction of activity, to try
+                    myself in a new capacity, I believe that my
+                    education and work experience will be useful and help to achieve success in the field of information
+                    technologies.</p>
+            </div>            
+            <!--Works-->
+            <div id="work-experience" class="work">
+                <h3 class="title">Work Experience</h3>
+                <!--Company 1-->
+                <div>
+                    <h4 class="work-position">Head of the architectural and construction department <span
+                            class="organization">Ukrgasproject</span> </h4>
+                    <p class="period">February 2019 - up to now <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item">Leading a group of engineers.</li>
+                        <li class="work-list-item">Independent project management.</li>
+                        <li class="work-list-item">Drawing of complex construction structures and nodes.</li>
+                        <li class="work-list-item">Сalculations of construction structures.</li>
+                    </ul>
+                </div>
+                <!--Company 2-->
+                <div>
+                    <h4 class="work-position">Leading structural engineer <span class="organization">ArchProject</span>
+                    </h4>
+                    <p class="period">August 2013 - February 2019 <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item">Independent project management.</li>
+                        <li class="work-list-item">Drawing of complex construction structures and nodes.</li>
+                        <li class="work-list-item">Сalculations of construction structures.</li>
+                    </ul>
+                </div>
+                <!--Company 3-->
+                <div>
+                    <h4 class="work-position">Structural engineer <span class="organization">Miskbudproject</span></h4>
+                    <p class="period">June 2010 - August 2013 <span class="line">|</span> Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-list-item">Drawing of construction structures.</li>
+                        <li class="work-list-item">Сalculations of construction structures.</li>
+                    </ul>
+                </div>
+            </div>            
+            <!--Code-->
+            <div class="work">
+                <h3 class="title">Code Example</h3>
+                <!--Example 1-->
+                <div>
+                    <code> function calculateTotal(number) {
+                    <br>// Change code below this line
+                    <br>let total = 0
+                    <br>for (let i = 0; i &lt;= number; i +=1) {
+                    <br>total +=i;
+                    <br>}
+                    <br>return total
+                     // Change code above this line } </code>        
+            </div>
+            <!--Education-->
+            <div id="education" class="education">
+                <h3 class="title">Education</h3>
+                <!--Place 1-->
+                <div>
+                    <h4 class="education-position">Poltava National Technical University</h4>
+                    <h4 class="speciality">Urban construction and economy</h4>
+                    <p class="period">September 2005 - June 2010 <span class="line">|</span> Ukraine</p>
+                </div>
+                <!--Place 2-->
+                <div>
+                    <h4 class="education-position">Courses</h4>
+                    <h4 class="speciality">HTML/CSS Marathon (GoIT)</h4>
+                    <h4 class="speciality">Test-Drive IT Specialty (GoIT)</h4>
+                    <h4 class="speciality">HTML&CSS Demo (GoIT)</h4>
+                    <h4 class="speciality">JavaScript Demo (GoIT)</h4>
+                </div>
+            </div>
+            <!--English level-->
+            <div class="education">
+                <h3 class="title">English Level</h3>
+                <!--Place 1-->
+                <div>
+                    <h4 class="education-position">Intermediate B1</h4>                    
+                </div>
+            </div>
+                <footer class="footer">                    
+                        <a class="footer_github" href="https://github.com/kotlubai"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50"
+                                alt="GitHub account"></a>
+                                <p class="footer_year">2022-2023</p>
+                        <a class="footer_rsschool" href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" width="100"
+                                alt="rs_school_js-stage0"></a>                    
+                </footer>
+        </div>
+        </div>
+        <!--Side bar-->
+        <aside class="sidebar">
+            <img src="img/Avatar.jpg" alt="user avatar" class="photo">
+            <!--Contacts-->
+            <div id="contacts" class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
+                <ul class="contacts_list">
+                   <li class="contats_item"> <span class="contact-type">Tel:</span>
+                    <a href="tel:+380664139195" class="contact-link">+38 066 413 91 95</a>
+                    </li>              
+                    <li class="contats_item"> <span class="contact-type">Email:</span>
+                    <a href="mailto:Kotlubayvl@gmail.com" class="contact-link">Kotlubayvl@gmail.com</a>
+                    </li>
+                </ul>    
+            </div>
+            <!--Tech Skills-->
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5, CSS</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">GitHub</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript (Basic)</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">VS Code</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Figma</span></li>
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">Scrum</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Sociability</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Teamwork</span></li>
+                </ul>
+            </div>
+            <!--Projects-->
+            <div id="projects" class="soft-skills">
+                <h3 class="sidebar-title">Projects</h3>
+                <ul class="soft-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text"><a href="https://web-studio-goit.netlify.app/" class="link">HTML&CSS task</a></span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text"><a href="https://kotlubai.github.io/rsschool-cv/cv" class="link">CV#1. Markdown & Git</a></span></li>
+                </ul>
+            </div>
+        </aside>
+    </main>    
+</body>
+</html>
