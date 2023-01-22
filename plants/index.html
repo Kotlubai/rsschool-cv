@@ -8,14 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
     <title>Plants</title>
 </head>
-<body class="global">
+<body class="global" style="overflow: scroll;">
     <header class="header">
-        <div >
-        <img src="img/logo_vector.svg" height="20" alt="Logo">
-        <a class="logo" href="./index.html">Plants</a>
+        <div class="header-menu">
+            <div class="logo-box">
+            <img src="img/logo_vector.svg" height="20" alt="Logo">
+            <a class="logo" href="./index.html">Plants</a>
+            </div>
+            <button class="mobileBtn header__mobileBtn" id="mobileBtn">
+                <span class="mobileBtn__elem"></span>
+                <span class="mobileBtn__elem"></span>
+                <span class="mobileBtn__elem"></span>
+                <span class="mobileBtn__elem"></span>
+            </button>
         </div>
         <nav class="navigation">
             <ul class="list">
@@ -29,7 +37,7 @@
                     <a class="nav-link" href="#service">Service</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#price">Price</a>
+                    <a class="nav-link" href="#prices">Price</a>
                 </li>
                 <li>
                     <a class="nav-link" href="#contacts">Contacts</a>
@@ -40,7 +48,7 @@
     <main>
         <!-- Section Welcome -->
         <section id="home">
-            <img class="image" src="img/leafs.png" height="408" alt="Leafs">
+            <img class="image" src="img/leafs.png" alt="Leafs">
             <div class="welcome-div">
             <h1 class="welcome-title">We grow <span class="accent">plants</span> and give you oxygen</h1>
             <p class="welcome-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -50,56 +58,56 @@
         <!-- Section About -->
         <section id="about">
             <div class="about-div">
-            <h2 class="about-title">We are <span class="accent2">professional experienced</span> gardeners</h2>
+            <h2 class="about-title">We are <span class="accent2">professional<br>experienced</span> gardeners</h2>
             <p class="about-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
             book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
             unchanged.</p>
             </div>
-            <img class="about-image" src="img/houseplant.jpg" height="480" alt="Houseplant">
+            <img class="about-image" src="img/houseplant.jpg" alt="Houseplant">
         </section>
         <!-- Section Service -->
         <section id="service">
             <div class="service-div-2">
-            <h2 class="service-title">Service and our projects</h2>
+            <h2 class="service-title">Service and our <br>projects</h2>
             <ul class="list-2">
-                <li><button class="button-2">Gardens</button></li>
-                <li><button class="button-2">Lawn</button></li>
-                <li><button class="button-2">Planting</button></li>
+                <li class="item-serv"><button class="button-2">Gardens</button></li>
+                <li class="item-serv"><button class="button-2">Lawn</button></li>
+                <li class="item-serv"><button class="button-2">Planting</button></li>
             </ul>
             </div>
             <ul class="list-3">
-                <li class="list-item"><img class="img-fix" src="img/aloe.png" height="350" alt="Aloe">
+                <li class="list-item"><img class="service-img" src="img/aloe.png" height="350" alt="Aloe">
                     <div class="image-border">
                     <h3 class="image-title">Garden care</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
                     </div>
                 </li>
-                <li class="list-item"><img class="img-fix" src="img/lemon.png" height="350" alt="Lemon">
+                <li class="list-item"><img class="service-img" src="img/lemon.png" height="350" alt="Lemon">
                     <div class="image-border">
                     <h3 class="image-title">Planting</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
                     </div>
                 </li>
-                <li class="list-item"><img class="img-fix" src="img/watering.png" height="350" alt="Watering plants">
+                <li class="list-item"><img class="service-img" src="img/watering.png" height="350" alt="Watering plants">
                     <div class="image-border">
                     <h3 class="image-title">Lawn care</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
                     </div>
                 </li>
-                <li class="list-item"><img class="img-fix" src="img/flowers.png" height="350" alt="Flowers in pots">
+                <li class="list-item"><img class="service-img" src="img/flowers.png" height="350" alt="Flowers in pots">
                     <div class="image-border">
                     <h3 class="image-title">Planting</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
                     </div>
                 </li>
-                <li class="list-item"><img class="img-fix" src="img/succulents.png" height="350" alt="Succulents">
+                <li class="list-item"><img class="service-img" src="img/succulents.png" height="350" alt="Succulents">
                     <div class="image-border">
                     <h3 class="image-title">Garden care</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
                     </div>
                 </li>
-                <li class="list-item"><img class="img-fix" src="img/cactuses.png" height="350" alt="Cactuses">
+                <li class="list-item"><img class="service-img" src="img/cactuses.png" height="350" alt="Cactuses">
                     <div class="image-border">
                     <h3 class="image-title">Planting</h3>
                     <p class="image-description">Lorem Ipsum has been the industry</p>
@@ -118,16 +126,16 @@
                 </ul>
             </div>
             <div class="prices-div-2">
-                <p class="prices-description">Our best <span class="accent">gardeners</span> are ready to help you</p>
+                <p class="prices-description">Our best <span class="accent">gardeners</span> are<br>ready to help you</p>
                 <button class="prices-button">Contact us</button>
                 <img class="prices-img" src="img/leafs_small.png" height="175" width="154" alt="Leafs">
             </div>
         </section>
         <!-- Section Contacts -->
         <section id="contacts">
-            <h2 class="contacts-title">Contact us</h2>            
-            <img class="img-woman" src="img/contact_woman.png" height="497" alt="Contact woman">
-            <div class="button-3">City</div>            
+            <h2 class="contacts-title">Contact us</h2>
+            <img class="img-woman" src="img/contact_woman.png" alt="Contact woman">
+            <div class="button-3">City</div>
         </section>
     </main>
     <footer >
@@ -138,7 +146,7 @@
                 <a class="git-link" href="https://github.com/kotlubai">github</a>
             </li>
             <li class="github-section-2">
-                <a class="git-link" href="#">Rolling Scopes School</a>
+                <a class="git-link" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
             </li >
             <li class="github-section-3">
                 <a class="git-link" href="#">
@@ -156,5 +164,6 @@
             </li>
         </ul>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
