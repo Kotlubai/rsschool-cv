@@ -20,7 +20,7 @@ body{
 /* About styles */
 
 .about{
-  margin-bottom: 40px;  
+  margin-bottom: 40px;
 }
 
 .link {
@@ -147,7 +147,7 @@ body{
 
 .work-list{
     padding: 0;
-    margin-left: 15px;   
+    margin-left: 15px;
 }
 
 .work-list-item{
@@ -275,7 +275,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    padding: 60px 20px 0px 20px;    
+    padding: 60px 20px 0px 20px;
     background-color: #FFFFFF;
 }
 
@@ -290,7 +290,7 @@ body{
 }
 
 .footer_rsschool {
-    justify-self: right;    
+    justify-self: right;
 }
 
 .nav {
@@ -315,7 +315,7 @@ body{
     font-style: normal;
     color: #000000;
     margin-bottom: 20px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .contacts_list {
